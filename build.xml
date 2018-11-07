@@ -1,0 +1,13 @@
+<project default="wsgen">
+
+	<target name="wsgen" >
+
+		<exec dir="C:/Program Files/Java/jdk1.8.0_151/bin" executable="wsgen">
+
+			<arg line="-cp D:/eclipse-workspace/DFS-Java/bin -keep -s D:/eclipse-workspace/DFS-Java/src -d D:/eclipse-workspace/DFS-Java/bin com.dfs.todoServer.Todos"/>
+
+		</exec>
+
+	</target>
+
+</project>
